@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hunt protfolio langing page website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!-- css file -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.animatedheadline.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#active_part" data-bs-offset="0" style="overflow-x: hidden;">
+
+    <!-- *************** preloader part start ************** -->
+    <div class="pre-loader">
+        <img src="images/pre-loader.gif" alt="pre-loader">
+    </div>
+    
+    <!-- *************** preloader part end ************** -->
+
+    <!-- *************** Header part start ************** -->
+    <!-- Mobile menu start -->
+    <header id="header_part" class="top_menu">
+        <div class="container px-lg-0">
+            <div class="row"> -->
+                <div class="col-lg-2">
+                    <div class="header_logo">
+                        <a href="#banner_part"><img src="images/header-logo.png" alt="logo"></a>
+                        <div class="open-menu" onclick="openMenu()">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="main_menu" id="navbar" onclick="closeMenu()">
+                        <div class="close-menu" onclick="closeMenu()">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <ul>
+                            <li><a href="#banner_part" onclick="closeMenu()">home</a></li>
+                            <li><a href="#about_mobile" onclick="closeMenu()">about us</a></li>
+                            <li><a href="#protfolio_part" onclick="closeMenu()">our portfolio</a></li>
+                            <li><a href="#testimonial_part" onclick="closeMenu()">testimonial</a></li>
+                            <li><a href="#pricing_part" onclick="closeMenu()">pricing plan</a></li>
+                            <li><a href="#footer_part" onclick="closeMenu()">contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="effect">
+            <img src="images/shape-1.png" alt="shape">
+        </div>
+    </header>
+    <!-- Mobile menu end -->
+    <!-- *************** Header part end ************** -->
+
+    <!-- *************** Navbar part start ************** -->
+    <nav class="navbar navbar-expand-md navigation top_menu" id="active_part">
+        <div class="container px-lg-0">
+          <a class="navbar-brand" href="#banner_part"><img src="images/header-logo.png" alt="logo"></a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#banner_part">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about_part">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#protfolio_part">our protfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonial_part">testimonial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing_part">pricing plan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer_part">contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="effect">
+            <img src="images/shape-1.png" alt="shape">
+        </div>
+      </nav>
+    <!-- *************** Navbar part end ************** -->
+
+    <!-- *************** Banner part start ************** -->
+    <section id="banner_part" class="scrollify">
+        <div class="banner_image">
+            <div class="banner_item" style="background: url(images/banner1.jpg) no-repeat top / cover;"></div>
+            <div class="banner_item" style="background: url(images/banner2.png) no-repeat top / cover;"></div>
+            <div class="banner_item" style="background: url(images/banner3.jpg) no-repeat top / cover;"></div>
+            <div class="banner_item" style="background: url(images/banner4.jpg) no-repeat top / cover;"></div>
+        </div>
+        <div class="banner_info">
+            <div class="container px-lg-0">
+                <div class="row">
+                    <div class="col-xl-7 col-12 m-auto">
+                        <div class="banner_text text-center">
+                            <h2>we are creative</h2>
+                            <div class="selector">
+                                <h1 class="ah-headline">
+                                    <span class="ah-words-wrapper">
+                                        <b class="is-visible">designer</b>
+                                        <b>developer</b>
+                                        <b>coder</b>
+                                    </span>
+                                </h1>
+                            </div>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
+                                inventore.adipisicing elit. Temporibus, inventore.</p>
+                            <div class="banner_button">
+                                <a href="#">view more</a>
+                                <a href="#">hire us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll_down">
+            <a href="#protfolio_part"><i class="fa-solid fa-arrow-down"></i></a>
+        </div>
+    </section>
+    <!-- *************** Banner part end ************** -->
+
+    <!-- *************** About part start ************** -->
+    <section id="about_part" class="scrollify">
+        <div class="container px-lg-0">
+            <div class="row">
+                <div class="col-lg-6 m-auto">
+                    <div class="common_heading text-center">
+                        <h2>about us</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Loremsum has been
+                            the industry's standard dummy text ever since the 1500s.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="about_info text-center">
+                        <div class="about_image">
+                            <img src="images/about-image.png" alt="about-image">
+                        </div>
+                        <div class="about_text1 text-center">
+                            <h3>who we are?</h3>
+                            <p>Lorem Ipsum is simply dummy text oftheg and namtypesetting industry. Loremumhaseen the my
+                                naindustry's standardmy text ever since the 1500s of the end.</p>
+                        </div>
+                        <div class="about_text2">
+                            <h3>what we can?</h3>
+                            <p>Lorem Ipsum is simply dummy text oftheg and namtypesetting industry. Loremumhaseen the my
+                                naindustry's standardmy text ever since the 1500s of the end.</p>
+                        </div>
+                        <div class="about_text3">
+                            <h3>what we do?</h3>
+                            <p>Lorem Ipsum is simply dummy text oftheg and namtypesetting industry. Loremumhaseen the my
+                                naindustry's standardmy text ever since the 1500s of the end.</p>
+                        </div>
+                        <div class="about_text4 text-center">
+                            <h3>why choose us?</h3>
+                            <p>Lorem Ipsum is simply dummy text oftheg and namtypesetting industry. Loremumhaseen the my
+                                naindustry's standardmy text ever since the 1500s of the end.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- *************** About part end ************** -->
+
+    <!-- *************** About mobile device part start ************** -->
+    <section id="about_mobile" class="text-center scrollify">
+        <div class="container px-lg-0">
+            <div class="row">
+                <div class="col-lg-6 m-auto">
+                    <div class="common_heading text-center">
+                        <h2>about us</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Loremsum has been
+                            the industry's standard dummy text ever since the 1500s.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 m-auto">
+                    <div class="about_a text-center">
+                        <h3>who we are?</h3>
+                        <p>Lorem Ipsum is simply dummy text oftheg and namtypesetting industry. Loremumhaseen the my
+                            naindustry's standardmy text ever since the 1500s of the end.</p>
+                    </div>
+                    <div class="about_b">
+                        <img src="images/about-image.png" alt="about-image">
+                    </div>
+                    <div class="about_c text-center">
+                        <h3>why choose us?</h3>
+                        <p>Lorem Ipsum is simply dummy text oftheg and namtypesetting industry. Loremumhaseen the my
+                            naindustry's standardmy text ever since the 1500s of the end.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- *************** About mobile device part end ************** -->
+
+
+    <!-- *************** Protfolio part start ************** -->
+    <section id="protfolio_part" class="scrollify" style="background:url(images/protfolio_banner.jpg) no-repeat center / cover;">
+        <div class="container px-lg-0">
+            <div class="row">
+                <div class="col-lg-6 m-auto">
+                    <div class="common_heading text-center">
+                        <h2 class="text-white">our protfolio</h2>
+                        <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Loremsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="protfolio_image">
+                        <div class="pro_img">
+                            <img src="images/pf-small-1.jpg" alt="image" class="img-fluide w-100">
+                            <div class="ven_overly">
+                                <div class="overly_text">
+                                    <a class="venobox " data-gall="gallery01" href="images/pf-big-1.jpg">
+                                        <ion-icon name="link"></ion-icon>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pro_img">
+                            <img src="images/pf-small-2.jpg" alt="image" class="img-fluide w-100">
+                            <div class="ven_overly">
+                                <div class="overly_text">
+                                    <a class="venobox " data-gall="gallery01" href="images/pf-big-2.jpg">
+                                        <ion-icon name="link"></ion-icon>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="protfolio_image">
+                        <div class="pro_img">
+                            <img src="images/pf-small-3.jpg" alt="image" class="img-fluide w-100">
+                            <div class="ven_overly">
+                                <div class="overly_text">
+                                    <a class="venobox " data-gall="gallery01" href="images/pf-big-3.jpg">
+                                        <ion-icon name="link"></ion-icon>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pro_img">
+                            <img src="images/pf-small-4.jpg" alt="image" class="img-fluide w-100">
+                            <div class="ven_overly">
+                                <div class="overly_text">
+                                    <a class="venobox " data-gall="gallery01" href="images/pf-big-4.jpg">
+                                        <ion-icon name="link"></ion-icon>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="protfolio_image">
+                        <div class="pro_img">
+                            <img src="images/pf-small-5.jpg" alt="image" class="img-fluide w-100">
+                            <div class="ven_overly">
+                                <div class="overly_text">
+                                    <a class="venobox" data-gall="gallery01" href="images/pf-big-5.jpg">
+                                        <ion-icon name="link"></ion-icon>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pro_img">
+                            <img src="images/pf-small-6.jpg" alt="image" class="img-fluide w-100">
+                            <div class="ven_overly">
+                                <div class="overly_text">
+                                    <a class="venobox " data-gall="gallery01" href="images/pf-big-6.jpg">
+                                        <ion-icon name="link"></ion-icon>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="protfolio_image">
+                        <div class="pro_img">
+                            <img src="images/pf-small-7.jpg" alt="image" class="img-fluide w-100">
+                            <div class="ven_overly">
+                                <div class="overly_text">
+                                    <a class="venobox" data-gall="gallery01" href="images/pf-big-7.jpg">
+                                        <ion-icon name="link"></ion-icon>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pro_img">
+                            <img src="images/pf-small-8.jpg" alt="image" class="img-fluide w-100">
+                            <div class="ven_overly">
+                                <div class="overly_text">
+                                    <a class="venobox " data-gall="gallery01" href="images/pf-big-8.jpg">
+                                        <ion-icon name="link"></ion-icon>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- *************** Protfolio part end ************** -->
+
+    <!-- *************** service part start ************** -->
+    <section id="service_part" class="text-center scrollify">
+        <div class="container px-lg-0">
+            <div class="row">
+                <div class="col-lg-6 m-auto">
+                    <div class="common_heading text-center service_inner">
+                        <h2>our services</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Loremsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-4">
+                    <div class="web_text">
+                        <span>web design</span>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="web_image">
+                        <img src="images/web-image.png" alt="web-image">
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="web_descri">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam repudiandae quia delectus
+                            alias totam explicabo cum quidem vitae possimus facilis. Placeat numquam reprehenderit
+                            pariatur, tenetur obcaecati labore. Non, ab aliquid!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row pb-5 text-center">
+                <div class="col-lg-4">
+                    <div class="web_text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A natus omnis est repudiandae
+                            assumenda magni unde at perferendis itaque laborum magnam similique eos quos ad, accusamus
+                            vero, dicta facilis aperiam.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="graph_image text-center">
+                        <img src="images/graphic_image.png" alt="web-image">
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="web_descri">
+                        <span>graphic design</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-1 text-center">
+                <div class="col-lg-4">
+                    <div class="web_text">
+                        <span>photography</span>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="photo_image text-center">
+                        <img src="images/photo_image.png" alt="web-image">
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="web_descri">
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A natus omnis est repudiandae
+                            assumenda magni unde at perferendis itaque laborum magnam similique eos quos ad, accusamus
+                            vero, dicta facilis aperiam.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- *************** service part end ************** -->
+
+    <!-- *************** Testimonial part start ************** -->
+    <section id="testimonial_part" class="scrollify" style="background: url(images/ts-ban-ima.jpg) no-repeat center / cover;">
+        <div class="container px-lg-0">
+            <div class="row">
+                <div class="col-lg-6 m-auto">
+                    <div class="common_heading text-center testi">
+                        <h2 class="text-white">testimonial</h2>
+                        <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Loremsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row first_slider">
+                <div class="col-lg-6 m-auto text-center">
+                    <div class="testi_text text-center">
+                        <h4>pici thaha</h4>
+                        <div class="testi_icon">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-half"></ion-icon>
+                        </div>
+                        <h5>chairman<span> / ceo</span></h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's ardy text ever since the 1500s, when an unknown printer took a galley of
+                            type and scrambled it to make a type ook. It has survived not only five centuries, but also
+                            the leap into electronic typesetting, remaining essentially changed. orem Ipsum is simply
+                            dummy text of the printing.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="testi_text text-center">
+                        <h4>mahadi tahsan</h4>
+                        <div class="testi_icon">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-half"></ion-icon>
+                        </div>
+                        <h5>chairman<span> / ceo</span></h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's ardy text ever since the 1500s, when an unknown printer took a galley of
+                            type and scrambled it to make a type ook. It has survived not only five centuries, but also
+                            the leap into electronic typesetting, remaining essentially changed. orem Ipsum is simply
+                            dummy text of the printing.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="testi_text text-center">
+                        <h4> laila akter</h4>
+                        <div class="testi_icon">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-half"></ion-icon>
+                        </div>
+                        <h5>chairman<span> / ceo</span></h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's ardy text ever since the 1500s, when an unknown printer took a galley of
+                            type and scrambled it to make a type ook. It has survived not only five centuries, but also
+                            the leap into electronic typesetting, remaining essentially changed. orem Ipsum is simply
+                            dummy text of the printing.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 m-auto">
+                    <div class="row second_slider">
+                        <div class="col-lg-4">
+                            <div class="testi_inner text-center">
+                                <img src="images/ts-img-1.png" class="img-fluide w-100" alt="testi_image">
+                                <div class="overly"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="testi_inner">
+                                <img src="images/ts-img-2t.png" class="img-fluide w-100" alt="testi_image">
+                                <div class="overly"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="testi_inner">
+                                <img src="images/ts-img-3.png" class="img-fluide w-100" alt="testi_image">
+                                <div class="overly"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="testi_inner">
+                                <img src="images/ts-img-1.png" class="img-fluide w-100" alt="testi_image">
+                                <div class="overly"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- *************** Testimonial part end ************** -->
+
+    <!-- *************** pricing part start ************** -->
+    <section id="pricing_part" class="scrollify">
+        <div class="container px-lg-0">
+            <div class="row">
+                <div class="col-lg-6 m-auto">
+                    <div class="common_heading text-center">
+                        <h2>Pricing Plan</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Loremsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="pricing_info text-center">
+                        <h3>silver</h3>
+                        <div class="price_inner">
+                            <div class="price">
+                                <div class="price_in ">
+                                    <h4>$ 2<span>9</span></h4>
+                                    <p>per month</p>
+                                </div>
+                            </div>
+                            <ul>
+                                <li>Android Application</li>
+                                <li>ios Application</li>
+                                <li>UX/UI Designs</li>
+                                <li> Wordpress Develope</li>
+                                <li>x</li>
+                            </ul>
+                        </div>
+                        <h5>join now</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pricing_info text-center">
+                        <h3 class="gol_part">golden</h3>
+                        <div class="price_inner">
+                            <div class="price gol_price">
+                                <div class="price_in golden">
+                                    <h4>$ 6<span>9</span></h4>
+                                    <p>per month</p>
+                                </div>
+                            </div>
+                            <ul>
+                                <li>Android Application</li>
+                                <li>ios Application</li>
+                                <li>UX/UI Designs</li>
+                                <li> Wordpress Develope</li>
+                                <li>x</li>
+                            </ul>
+                        </div>
+                        <h5 class="gol_join">join now</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pricing_info text-center">
+                        <h3>platinum</h3>
+                        <div class="price_inner">
+                            <div class="price">
+                                <div class="price_in">
+                                    <h4>$ 8<span>9</span></h4>
+                                    <p>per month</p>
+                                </div>
+                            </div>
+                            <ul>
+                                <li>Android Application</li>
+                                <li>ios Application</li>
+                                <li>UX/UI Designs</li>
+                                <li> Wordpress Develope</li>
+                                <li>x</li>
+                            </ul>
+                        </div>
+                        <h5>join now</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- *************** pricing part end ************** -->
+
+    <!-- *************** Cunter part start ************** -->
+    <section id="counter_part" class="scrollify" style="background: url(images/counter-bgt.png) no-repeat center / cover;">
+        <div class="container px-lg-0">
+            <div class="row counter_inner">
+                <div class="col text-center">
+                    <div class="counter_info">
+                        <h3 class="counter">230</h3>
+                        <h4 class="cup">total clients</h4>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="counter_info">
+                        <h3 class="counter">330</h3>
+                        <h4>satisfied clients</h4>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="counter_info">
+                        <h3 class="counter">130</h3>
+                        <h4>reviewed client</h4>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="counter_info">
+                        <h3 class="counter">430</h3>
+                        <h4 class="cup">cup of tea</h4>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="counter_info">
+                        <h3 class="counter">530</h3>
+                        <h4>Milestone client</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- *************** Cunter part end ************** -->
+
+    <!-- *************** Team part start ************** -->
+    <section id="team_part" class="scrollify">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 m-auto">
+                    <div class="common_heading text-center">
+                        <h2>our team</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Loremsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="team_info">
+                        <div class="team_image">
+                            <img src="images/team-1.png" class="img-fluide w-100" alt="team-img">
+                            <div class="team_overly">
+                                <i class="fa-solid fa-magnifying-glass"></i> 
+                            </div>
+                        </div>
+                        <div class="team_text text-center">
+                            <h4>adreeta nipa</h4>
+                            <span>founder</span>
+                            <div class="team_icon">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-behance"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team_info">
+                        <div class="team_image">
+                            <img src="images/team-2.png" class="img-fluide w-100" alt="team-img">
+                            <div class="team_overly">
+                                <i class="fa-solid fa-magnifying-glass"></i> 
+                            </div>
+                        </div>
+                        <div class="team_text text-center">
+                            <h4>adreeta nipa</h4>
+                            <span>founder</span>
+                            <div class="team_icon">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-behance"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team_info">
+                        <div class="team_image">
+                            <img src="images/team-3.png" class="img-fluide w-100" alt="team-img">
+                            <div class="team_overly">
+                                <i class="fa-solid fa-magnifying-glass"></i> 
+                            </div>
+                        </div>
+                        <div class="team_text text-center">
+                            <h4>adreeta nipa</h4>
+                            <span>founder</span>
+                            <div class="team_icon">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-behance"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team_info">
+                        <div class="team_image">
+                            <img src="images/team-4.png" class="img-fluide w-100" alt="team-img">
+                            <div class="team_overly">
+                                <i class="fa-solid fa-magnifying-glass"></i> 
+                            </div>
+                        </div>
+                        <div class="team_text text-center">
+                            <h4>adreeta nipa</h4>
+                            <span>founder</span>
+                            <div class="team_icon">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-behance"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- *************** Team part end ************** -->
+
+    <!-- *************** Logo part start ************** -->
+    <section id="logo_part" class="scrollify">
+        <div class="container px-lg-0">
+            <div class="row logo-slider">
+                <div class="col">
+                    <div class="logo_image">
+                        <img src="images/logo-img-1t.png" alt="logo">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="logo_image">
+                        <img src="images/logo-img-2.png"  alt="logo">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="logo_image">
+                        <img src="images/logo-img-3.png"  alt="logo">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="logo_image">
+                        <img src="images/logo-img-4t.png"  alt="logo">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="logo_image">
+                        <img src="images/logo-img-5.png"  alt="logo">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="logo_image">
+                        <img src="images/logo-img-5.png"  alt="logo">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- *************** Logo part end ************** -->
+
+    <!-- *************** footer part start ************** -->
+    <footer id="footer_part" class="scrollify">
+        <div class="footer_1">
+            <div class="container px-lg-0">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="footer_logo">
+                            <img src="images/header-logo.png" alt="logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="footer_inner text-center footer_af">
+                            <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+                            <p>1234, Parkstreet Avenue <br>Newyork City, America.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer_inner text-center footer_af">
+                            <a href="callto:01914227699"><i class="fa-solid fa-phone"></i></a>
+                            <p>+123 4567 8900, +123 0098 7654<br> +99 0712 36526, +99 3644 36842</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer_inner text-center footer_af">
+                            <a href="mailto:lailakhatun@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                            <p>hunt@admin.com, info@hunt.com <br>personal-portfolio@hunt.com</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer_inner text-center">
+                            <a href="#"><i class="fa-solid fa-earth-africa"></i></a>
+                            <p>www.hunt-personal-port.com <br>www.portfolio-hunt.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row follow_part text-center">
+                    <div class="col-lg-12">
+                        <h3>follow us</h3>
+                        <div class="footer_icon">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fa-brands fa-behance"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_2 text-center">
+                <p>Copyright &copy; 2017.All rights reserved by<span> HUNT.</span></p>
+        </div>
+    </footer>
+    <!-- *************** footer part end ************** -->
+
+    <!-- *************** Back to top button start ************** -->
+    <div class="back-to-top">
+        <i class="fa-solid fa-angle-up"></i>
+    </div>
+    <!-- *************** Back to top button end ************** -->
+
+
+
+    <!-- js file -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="js/jquery.animatedheadline.min.js"></script>
+    <!-- counter up -->
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.scrollify.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
